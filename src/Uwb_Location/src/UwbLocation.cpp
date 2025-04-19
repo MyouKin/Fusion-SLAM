@@ -360,7 +360,7 @@ int main(int argc, char** argv)
     //创建timeout
     serial::Timeout to = serial::Timeout::simpleTimeout(11);
     //设置要打开的串口名称
-    sp.setPort("/dev/ttyUSB0");
+    sp.setPort("/dev/ttyCH341USB0");
     //设置串口通信的波特率
     sp.setBaudrate(115200);
     //串口设置timeout

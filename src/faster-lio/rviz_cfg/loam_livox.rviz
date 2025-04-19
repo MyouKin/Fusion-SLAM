@@ -93,7 +93,7 @@ Visualization Manager:
           Size (Pixels): 3
           Size (m): 0.05000000074505806
           Style: Points
-          Topic: /cloud_registered
+          Topic: /velodyne_points
           Unreliable: false
           Use Fixed Frame: true
           Use rainbow: true
@@ -123,7 +123,7 @@ Visualization Manager:
           Size (Pixels): 3
           Size (m): 0.009999999776482582
           Style: Points
-          Topic: /cloud_registered_effect_world
+          Topic: /velodyne_points_effect_world
           Unreliable: false
           Use Fixed Frame: true
           Use rainbow: true
@@ -153,7 +153,7 @@ Visualization Manager:
           Size (Pixels): 1
           Size (m): 0.009999999776482582
           Style: Points
-          Topic: /cloud_registered
+          Topic: /velodyne_points
           Unreliable: false
           Use Fixed Frame: true
           Use rainbow: true
@@ -283,7 +283,7 @@ Visualization Manager:
       Size (Pixels): 4
       Size (m): 0.30000001192092896
       Style: Spheres
-      Topic: /cloud_effected
+      Topic: /velodyne_points_effected
       Unreliable: false
       Use Fixed Frame: true
       Use rainbow: true
@@ -330,7 +330,7 @@ Visualization Manager:
   Global Options:
     Background Color: 0; 0; 0
     Default Light: true
-    Fixed Frame: camera_init
+    Fixed Frame: velodyne
     Frame Rate: 10
   Name: root
   Tools:
